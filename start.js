@@ -43,7 +43,7 @@ response.writeHead(200, {'Content-Type': 'text/plain'});
 
 var myRtnData_j = {'test': 123};
 
-  response.write(JSON.stringify(myRtnData_j));
+  response.write(JSON.stringify(myRtnData_j)); //test to return json data
   response.end('Hello! My name is Passim! The path could not be found\nMethod:'+request.method+'\nUrl: '+urlen +'\nPath: '+path);
 
 
